@@ -992,7 +992,6 @@
                     <p>
                         Connect with thousands of independent brands and partners worldwide, fostering a network of mutual growth.
                     </p>
-                </div>
                 <div class="feature-card">
                     <div>🌱</div>
                     <h4>Sustainable Solutions</h4>
@@ -1085,7 +1084,6 @@
         <div id="banking-sector-glyphs" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 max-w-6xl mx-auto">
             <!-- Banking sector glyphs will be dynamically inserted here by JavaScript -->
         </div>
-        <!-- Removed individual embedded snapshot divs as content is now loaded dynamically into #sector-content-container -->
         <div id="sector-content-container" class="mt-10 px-6 max-w-6xl mx-auto flex flex-col space-y-6">
             <!-- Dynamic detailed content for selected banking sector on landing page will be loaded here -->
         </div>
@@ -1256,130 +1254,122 @@
     <div id="fruitful-dashboard-wrapper" class="hidden flex-grow main-content-bg">
         <div class="flex flex-grow dashboard-container">
             <nav class="dashboard-sidebar-bg dashboard-sidebar">
-                <h2 class="text-xl font-semibold dashboard-primary-text mb-4">Navigation</h2>
+                <h2 class="text-xl font-semibold dashboard-primary-text mb-4">Banking Navigation</h2>
                 <a href="#" class="dashboard-sidebar-nav-item" onclick="showDashboardSection('overview')">
-                    <i class="fas fa-tachometer-alt"></i> Overview
+                    <i class="fas fa-tachometer-alt"></i> Banking Overview
                 </a>
                 <a href="#" class="dashboard-sidebar-nav-item" onclick="showDashboardSection('analytics')">
-                    <i class="fas fa-chart-line"></i> Data Analytics
+                    <i class="fas fa-chart-line"></i> Financial Analytics
                 </a>
                 <a href="#" class="dashboard-sidebar-nav-item" onclick="showDashboardSection('admin-panel')">
-                    <i class="fas fa-users-cog"></i> Admin Panel
-                </a>
-                <a href="#" class="dashboard-sidebar-nav-item" onclick="showDashboardSection('music')">
-                    <i class="fas fa-music"></i> Music & Media
-                </a>
-                <a href="#" class="dashboard-sidebar-nav-item" onclick="showDashboardSection('ai-gemini')">
-                    <i class="fas fa-robot"></i> AI Gemini
-                </a>
-                <a href="#" class="dashboard-sidebar-nav-item" onclick="showDashboardSection('maps')">
-                    <i class="fas fa-map-marked-alt"></i> Maps
+                    <i class="fas fa-users-cog"></i> Financial Admin
                 </a>
                 <a href="#" class="dashboard-sidebar-nav-item" onclick="showDashboardSection('banking')">
-                    <i class="fas fa-bank"></i> Banking
+                    <i class="fas fa-bank"></i> Banking Sectors
                 </a>
-                <a href="#" class="dashboard-sidebar-nav-item" onclick="showDashboardSection('meeting-minutes')">
-                    <i class="fas fa-clipboard-list"></i> Meeting Minutes
+                <a href="#" class="dashboard-sidebar-nav-item" onclick="showDashboardSection('ai-gemini')">
+                    <i class="fas fa-robot"></i> AI Financial Assistant
                 </a>
-                <a href="#" class="dashboard-sidebar-nav-item">
-                    <i class="fas fa-cog"></i> Settings
+                <a href="#" class="dashboard-sidebar-nav-item" onclick="showDashboardSection('maps')">
+                    <i class="fas fa-map-marked-alt"></i> Global Branch Network
+                </a>
+                 <a href="#" class="dashboard-sidebar-nav-item" onclick="showDashboardSection('meeting-minutes')">
+                    <i class="fas fa-clipboard-list"></i> Banking Team Meetings
+                </a>
+                <a href="#" class="dashboard-sidebar-nav-item" onclick="showDashboardSection('settings')">
+                    <i class="fas fa-cog"></i> Banking System Settings
                 </a>
             </nav>
 
             <main class="flex-grow p-8 dashboard-main-content-bg overflow-y-auto dashboard-main-content">
                 <div class="flex h-full dashboard-main-content-wrapper">
-                    <nav id="musicSubSidebar" class="dashboard-sidebar-bg music-sub-sidebar hidden">
-                        <h3 class="text-lg font-semibold dashboard-primary-text mb-3">Music Library</h3>
-                        <a href="#" class="dashboard-sidebar-nav-item" onclick="showMusicSubSection('allMusic')">
-                            <i class="fas fa-compact-disc"></i> All Music
-                        </a>
-                        <a href="#" class="dashboard-sidebar-nav-item" onclick="showMusicSubSection('musicPlaylists')">
-                            <i class="fas fa-list-music"></i> Playlists
-                        </a>
-                        <a href="#" class="dashboard-sidebar-nav-item" onclick="showMusicSubSection('artists')">
-                            <i class="fas fa-microphone-alt"></i> Artists
-                        </a>
-                    </nav>
-
                     <div class="flex-grow">
                         <section id="overview" class="mb-8 dashboard-card">
-                            <h2 class="text-3xl font-bold dashboard-primary-text mb-6">Dashboard Overview</h2>
+                            <h2 class="text-3xl font-bold dashboard-primary-text mb-6">Banking Overview</h2>
                             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                                 <div class="dashboard-sub-card">
-                                    <h3 class="text-xl font-semibold dashboard-text-light mb-2">Total Users</h3>
-                                    <p class="text-4xl font-bold dashboard-primary-text">15,420</p>
+                                    <h3 class="text-xl font-semibold dashboard-text-light mb-2">Total Financial Users</h3>
+                                    <p class="text-4xl font-bold dashboard-primary-text">1.5M</p>
                                 </div>
                                 <div class="dashboard-sub-card">
-                                    <h3 class="text-xl font-semibold dashboard-text-light mb-2">Active Projects</h3>
-                                    <p class="text-4xl font-bold dashboard-secondary-text">245</p>
+                                    <h3 class="text-xl font-semibold dashboard-text-light mb-2">Active Banking Products</h3>
+                                    <p class="text-4xl font-bold dashboard-secondary-text">500+</p>
                                 </div>
                                 <div class="dashboard-sub-card">
-                                    <h3 class="text-xl font-semibold dashboard-text-light mb-2">Data Processed (TB)</h3>
-                                    <p class="text-4xl font-bold text-teal-400">89.5</p>
+                                    <h3 class="text-xl font-semibold dashboard-text-light mb-2">Total Assets Under Management (AUM)</h3>
+                                    <p class="text-4xl font-bold text-teal-400">$89.5 Billion</p>
                                 </div>
                             </div>
                             <div class="mt-8">
-                                <h3 class="text-2xl font-semibold dashboard-text-light mb-4">Quick Stats</h3>
+                                <h3 class="text-2xl font-semibold dashboard-text-light mb-4">Key Financial Metrics</h3>
                                 <ul class="list-disc list-inside dashboard-muted-text space-y-2">
-                                    <li>Daily Active Users: 3,120</li>
-                                    <li>New Registrations This Week: 125</li>
-                                    <li>Average Session Duration: 12 min</li>
-                                    <li>System Uptime: 99.9%</li>
+                                    <li>Daily Active Banking Clients: 312,000</li>
+                                    <li>New Account Openings This Week: 1,250</li>
+                                    <li>Average Transaction Value: $350</li>
+                                    <li>Compliance Score: 99.8%</li>
                                 </ul>
                             </div>
                         </section>
 
                         <section id="analytics" class="hidden mb-8 dashboard-card">
-                            <h2 class="text-3xl font-bold dashboard-primary-text mb-6">Data Analytics</h2>
+                            <h2 class="text-3xl font-bold dashboard-primary-text mb-6">Financial Analytics</h2>
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 grid-cols-2-md">
                                 <div class="dashboard-sub-card">
-                                    <h3 class="text-xl font-semibold dashboard-text-light mb-2">Usage Trends</h3>
-                                    <p class="dashboard-muted-text">Graph showing daily user activity and data consumption.</p>
+                                    <h3 class="text-xl font-semibold dashboard-text-light mb-2">Revenue Trends (QoQ)</h3>
+                                    <p class="dashboard-muted-text">Graph showing quarterly revenue from various banking services.</p>
                                     <div class="mt-4 bg-gray-800 h-48 flex items-center justify-center rounded-md">
-                                        <span class="dashboard-muted-text">Placeholder Chart</span>
+                                        <span class="dashboard-muted-text">Placeholder Chart: Revenue</span>
                                     </div>
                                 </div>
                                 <div class="dashboard-sub-card">
-                                    <h3 class="text-xl font-semibold dashboard-text-light mb-2">Performance Metrics</h3>
-                                    <p class="dashboard-muted-text">Key performance indicators over time.</p>
+                                    <h3 class="text-xl font-semibold dashboard-text-light mb-2">Loan Portfolio Performance</h3>
+                                    <p class="dashboard-muted-text">Key indicators for lending health and risk.</p>
                                     <div class="mt-4 bg-gray-800 h-48 flex items-center justify-center rounded-md">
-                                        <span class="dashboard-muted-text">Placeholder Chart</span>
+                                        <span class="dashboard-muted-text">Placeholder Chart: Loan Metrics</span>
+                                    </div>
+                                </div>
+                                <div class="dashboard-sub-card md:col-span-2">
+                                    <h3 class="text-xl font-semibold dashboard-text-light mb-2">Customer Segmentation & Lifetime Value</h3>
+                                    <p class="dashboard-muted-text">Analysis of customer groups and their financial contributions.</p>
+                                    <div class="mt-4 bg-gray-800 h-48 flex items-center justify-center rounded-md">
+                                        <span class="dashboard-muted-text">Placeholder Chart: Customer LTV</span>
                                     </div>
                                 </div>
                             </div>
                         </section>
 
                         <section id="admin-panel" class="hidden mb-8 dashboard-card">
-                            <h2 class="text-3xl font-bold dashboard-primary-text mb-6">Admin Panel</h2>
-                            <p class="dashboard-muted-text mb-4">Manage users, review content, and configure system settings.</p>
+                            <h2 class="text-3xl font-bold dashboard-primary-text mb-6">Financial Admin Panel</h2>
+                            <p class="dashboard-muted-text mb-4">Manage banking users, review transactions, and configure system settings.</p>
 
                             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
                                 <div class="dashboard-sub-card">
-                                    <h3 class="text-xl font-semibold dashboard-text-light mb-2">Total Active Admins</h3>
-                                    <p class="text-4xl font-bold dashboard-secondary-text">7</p>
+                                    <h3 class="text-xl font-semibold dashboard-text-light mb-2">Total Compliance Officers</h3>
+                                    <p class="text-4xl font-bold dashboard-secondary-text">15</p>
                                 </div>
                                 <div class="dashboard-sub-card">
-                                    <h3 class="text-xl font-semibold dashboard-text-light mb-2">Pending Approvals</h3>
-                                    <p class="text-4xl font-bold text-yellow-400">12</p>
+                                    <h3 class="text-xl font-semibold dashboard-text-light mb-2">Pending Fraud Investigations</h3>
+                                    <p class="text-4xl font-bold text-yellow-400">23</p>
                                 </div>
                                 <div class="dashboard-sub-card">
-                                    <h3 class="text-xl font-semibold dashboard-text-light mb-2">System Health</h3>
-                                    <p class="text-4xl font-bold text-green-400">Optimal</p>
+                                    <h3 class="text-xl font-semibold dashboard-text-light mb-2">System Audit Status</h3>
+                                    <p class="text-4xl font-bold text-green-400">Clean</p>
                                 </div>
                             </div>
 
-                            <h3 class="text-2xl font-semibold dashboard-text-light mb-4">User Management</h3>
+                            <h3 class="text-2xl font-semibold dashboard-text-light mb-4">Account Management</h3>
                             <div class="flex flex-col md:flex-row gap-4 mb-6">
                                 <input
                                     type="text"
-                                    placeholder="Search users..."
+                                    placeholder="Search account by ID or name..."
                                     class="flex-grow px-4 py-2 rounded-lg bg-gray-700 border dashboard-border-dark dashboard-text-light placeholder-dashboard-muted-text focus:outline-none focus:ring-2 focus:ring-primary-color"
                                 >
                                 <select class="px-4 py-2 rounded-lg bg-gray-700 border dashboard-border-dark dashboard-text-light focus:outline-none focus:ring-2 focus:ring-primary-color">
-                                    <option value="">Filter by Role</option>
-                                    <option value="admin">Admin</option>
-                                    <option value="user">User</option>
-                                    <option value="moderator">Moderator</option>
+                                    <option value="">Filter by Account Type</option>
+                                    <option value="checking">Checking</option>
+                                    <option value="savings">Savings</option>
+                                    <option value="loan">Loan</option>
+                                    <option value="investment">Investment</option>
                                 </select>
                                 <button class="px-4 py-2 bg-primary-color text-white font-semibold rounded-lg hover:bg-green-600 transition duration-200">Apply Filters</button>
                             </div>
@@ -1387,44 +1377,44 @@
                                 <table class="min-w-full bg-gray-700 rounded-lg shadow-md">
                                     <thead>
                                         <tr>
-                                            <th class="py-3 px-4 text-left text-sm font-semibold dashboard-muted-text uppercase tracking-wider border-b dashboard-border-dark">User ID</th>
-                                            <th class="py-3 px-4 text-left text-sm font-semibold dashboard-muted-text uppercase tracking-wider border-b dashboard-border-dark">Name</th>
-                                            <th class="py-3 px-4 text-left text-sm font-semibold dashboard-muted-text uppercase tracking-wider border-b dashboard-border-dark">Email</th>
-                                            <th class="py-3 px-4 text-left text-sm font-semibold dashboard-muted-text uppercase tracking-wider border-b dashboard-border-dark">Role</th>
+                                            <th class="py-3 px-4 text-left text-sm font-semibold dashboard-muted-text uppercase tracking-wider border-b dashboard-border-dark">Account ID</th>
+                                            <th class="py-3 px-4 text-left text-sm font-semibold dashboard-muted-text uppercase tracking-wider border-b dashboard-border-dark">Holder Name</th>
+                                            <th class="py-3 px-4 text-left text-sm font-semibold dashboard-muted-text uppercase tracking-wider border-b dashboard-border-dark">Balance</th>
+                                            <th class="py-3 px-4 text-left text-sm font-semibold dashboard-muted-text uppercase tracking-wider border-b dashboard-border-dark">Type</th>
                                             <th class="py-3 px-4 text-left text-sm font-semibold dashboard-muted-text uppercase tracking-wider border-b dashboard-border-dark">Status</th>
                                             <th class="py-3 px-4 text-left text-sm font-semibold dashboard-muted-text uppercase tracking-wider border-b dashboard-border-dark">Actions</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr class="hover:bg-gray-600 transition duration-200">
-                                            <td class="py-3 px-4 border-b dashboard-border-dark">FRTL-001</td>
-                                            <td class="py-3 px-4 border-b dashboard-border-dark">Alice Smith</td>
-                                            <td class="py-3 px-4 border-b dashboard-border-dark">alice@example.com</td>
-                                            <td class="py-3 px-4 border-b dashboard-border-dark">Admin</td>
+                                            <td class="py-3 px-4 border-b dashboard-border-dark">B-001001</td>
+                                            <td class="py-3 px-4 border-b dashboard-border-dark">John Doe</td>
+                                            <td class="py-3 px-4 border-b dashboard-border-dark">$12,345.67</td>
+                                            <td class="py-3 px-4 border-b dashboard-border-dark">Checking</td>
                                             <td class="py-3 px-4 border-b dashboard-border-dark"><span class="bg-green-500 text-white text-xs font-semibold px-2.5 py-0.5 rounded-full">Active</span></td>
                                             <td class="py-3 px-4 border-b dashboard-border-dark">
-                                                <button class="text-blue-400 hover:text-blue-300 mr-2">Edit</button>
-                                                <button class="text-red-400 hover:text-red-300">Delete</button>
+                                                <button class="text-blue-400 hover:text-blue-300 mr-2">View</button>
+                                                <button class="text-red-400 hover:text-red-300">Freeze</button>
                                             </td>
                                         </tr>
                                         <tr class="hover:bg-gray-600 transition duration-200">
-                                            <td class="py-3 px-4 border-b dashboard-border-dark">FRTL-002</td>
-                                            <td class="py-3 px-4 border-b dashboard-border-dark">Bob Johnson</td>
-                                            <td class="py-3 px-4 border-b dashboard-border-dark">bob@example.com</td>
-                                            <td class="py-3 px-4 border-b dashboard-border-dark">User</td>
-                                            <td class="py-3 px-4 border-b dashboard-border-dark"><span class="bg-yellow-500 text-white text-xs font-semibold px-2.5 py-0.5 rounded-full">Pending</span></td>
+                                            <td class="py-3 px-4 border-b dashboard-border-dark">B-001002</td>
+                                            <td class="py-3 px-4 border-b dashboard-border-dark">Jane Smith</td>
+                                            <td class="py-3 px-4 border-b dashboard-border-dark">$50,000.00</td>
+                                            <td class="py-3 px-4 border-b dashboard-border-dark">Investment</td>
+                                            <td class="py-3 px-4 border-b dashboard-border-dark"><span class="bg-yellow-500 text-white text-xs font-semibold px-2.5 py-0.5 rounded-full">On Hold</span></td>
                                             <td class="py-3 px-4 border-b dashboard-border-dark">
-                                                <button class="text-blue-400 hover:text-blue-300 mr-2">Edit</button>
-                                                <button class="text-red-400 hover:text-red-300">Delete</button>
+                                                <button class="text-blue-400 hover:text-blue-300 mr-2">View</button>
+                                                <button class="text-red-400 hover:text-red-300">Close</button>
                                             </td>
                                         </tr>
                                         </tbody>
                                 </table>
                             </div>
 
-                            <h3 class="text-2xl font-semibold dashboard-text-light mb-4">Admin Assistant (AI Powered)</h3>
-                            <p class="dashboard-muted-text mb-3">Ask Gemini AI for insights on administrative tasks, user trends, or content moderation advice.</p>
-                            <textarea id="adminAIPrompt" rows="4" class="w-full p-3 rounded-lg bg-gray-700 border dashboard-border-dark dashboard-text-light placeholder-dashboard-muted-text focus:outline-none focus:ring-2 focus:ring-purple-400" placeholder="e.g., 'Summarize recent user activity trends for the past week.', 'Suggest a policy for handling spam content.'"></textarea>
+                            <h3 class="text-2xl font-semibold dashboard-text-light mb-4">Financial Admin Assistant (AI Powered)</h3>
+                            <p class="dashboard-muted-text mb-3">Ask Gemini AI for insights on banking operations, fraud patterns, or compliance advice.</p>
+                            <textarea id="adminAIPrompt" rows="4" class="w-full p-3 rounded-lg bg-gray-700 border dashboard-border-dark dashboard-text-light placeholder-dashboard-muted-text focus:outline-none focus:ring-2 focus:ring-purple-400" placeholder="e.g., 'Summarize recent suspicious transaction trends for the past week.', 'Suggest a policy for handling high-risk accounts.'"></textarea>
                             <button id="sendAdminAIPrompt" class="px-6 py-3 bg-purple-500 text-white font-semibold rounded-lg hover:bg-purple-600 transition duration-200 mt-4 self-end">
                                 Ask Admin Assistant
                             </button>
@@ -1439,49 +1429,56 @@
                         </section>
 
                         <section id="music" class="hidden mb-8 dashboard-card flex-grow music-content-area">
-                            <h2 class="text-3xl font-bold dashboard-primary-text mb-6">Music & Media</h2>
-                            <p class="dashboard-muted-text text-center mb-6">Explore curated music and media content from our partners.</p>
+                            <h2 class="text-3xl font-bold dashboard-primary-text mb-6">Financial Insights & Data</h2>
+                            <p class="dashboard-muted-text text-center mb-6">Explore curated data visualizations and media relevant to financial markets.</p>
 
                             <div id="allMusicContent" class="flex flex-col items-center justify-center space-y-6">
-                                <h3 class="text-xl font-semibold dashboard-text-light mb-2">All Music Tracks</h3>
+                                <h3 class="text-xl font-semibold dashboard-text-light mb-2">Market Trend Visualizations</h3>
                                 <div class="w-full max-w-xl">
-                                    <h4 class="text-lg font-semibold dashboard-text-light mb-2">Album: The Fated Sky</h4>
-                                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3RyjFxsU9hcmg14vqzUUMy?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                                    <h4 class="text-lg font-semibold dashboard-text-light mb-2">Equity Market Performance</h4>
+                                    <div class="mt-4 bg-gray-800 h-48 flex items-center justify-center rounded-md">
+                                        <span class="dashboard-muted-text">Placeholder Chart: S&P 500 Trends</span>
+                                    </div>
                                 </div>
 
                                 <div class="w-full max-w-xl">
-                                    <h4 class="text-lg font-semibold dashboard-text-light mb-2">Track: No Reason</h4>
-                                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2kdQY3b6dDRGonyIzcWljc?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                                    <h4 class="text-lg font-semibold dashboard-text-light mb-2">Global Economic Indicators</h4>
+                                    <div class="mt-4 bg-gray-800 h-48 flex items-center justify-center rounded-md">
+                                        <span class="dashboard-muted-text">Placeholder Chart: GDP Growth Rates</span>
+                                    </div>
                                 </div>
 
                                 <div class="w-full max-w-xl">
-                                    <h4 class="text-lg font-semibold dashboard-text-light mb-2">Track: Space Song</h4>
-                                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6Xe9wT5xeZETPwtaP2ynUz?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                                    <h4 class="text-lg font-semibold dashboard-text-light mb-2">Cryptocurrency Volatility Index</h4>
+                                    <div class="mt-4 bg-gray-800 h-48 flex items-center justify-center rounded-md">
+                                        <span class="dashboard-muted-text">Placeholder Chart: Crypto Index</span>
+                                    </div>
                                 </div>
                             </div>
 
                             <div id="musicPlaylistsContent" class="hidden">
-                                <h3 class="text-xl font-semibold dashboard-text-light mb-4">Your Music Playlists</h3>
+                                <h3 class="text-xl font-semibold dashboard-text-light mb-4">Financial Report Library</h3>
                                 <ul class="list-disc list-inside dashboard-muted-text space-y-2">
-                                    <li>Fruitful Focus Playlist</li>
-                                    <li>Deep Work Rhythms</li>
-                                    <li>Relax & Grow Collection</li>
+                                    <li>Quarterly Earnings Summaries</li>
+                                    <li>Risk Assessment Reports</li>
+                                    <li>Compliance Audit Results</li>
+                                    <li>Market Outlooks</li>
                                 </ul>
                             </div>
 
                             <div id="artistsContent" class="hidden">
-                                <h3 class="text-xl font-semibold dashboard-text-light mb-4">Featured Artists</h3>
+                                <h3 class="text-xl font-semibold dashboard-text-light mb-4">Keynote Speeches & Webinars</h3>
                                 <ul class="list-disc list-inside dashboard-muted-text space-y-2">
-                                    <li>Artist A - Genre: Ambient</li>
-                                    <li>Artist B - Genre: Lo-Fi</li>
-                                    <li>Artist C - Genre: Classical</li>
+                                    <li>Future of Digital Banking - CEO Insights</li>
+                                    <li>Blockchain in Finance - Expert Panel</li>
+                                    <li>Navigating Global Regulations - Legal Series</li>
                                 </ul>
                             </div>
                         </section>
 
                         <section id="ai-gemini" class="hidden mb-8 dashboard-card">
-                            <h2 class="text-3xl font-bold dashboard-primary-text mb-6">AI Gemini Integration</h2>
-                            <p class="dashboard-muted-text mb-4">Interact with the Gemini AI model directly from your dashboard.</p>
+                            <h2 class="text-3xl font-bold dashboard-primary-text mb-6">AI Financial Assistant</h2>
+                            <p class="dashboard-muted-text mb-4">Interact with the Gemini AI model for financial insights and support.</p>
 
                             <div class="api-key-warning mb-4">
                                 <strong>Security Alert!</strong> For production, never expose your API key directly in client-side code. Use a backend server to proxy your AI requests.
@@ -1489,8 +1486,8 @@
 
                             <!-- General Gemini Prompt -->
                             <div class="mb-8">
-                                <h3 class="text-xl font-semibold dashboard-text-light mb-3">General Query ✨</h3>
-                                <textarea id="geminiPrompt" rows="4" class="w-full p-3 rounded-lg bg-gray-700 border dashboard-border-dark dashboard-text-light placeholder-dashboard-muted-text focus:outline-none focus:ring-2 focus:ring-primary-color" placeholder="Enter your prompt for Gemini AI here... (e.g., 'Explain how AI works in a few words', 'Write a short poem about fruit.')"></textarea>
+                                <h3 class="text-xl font-semibold dashboard-text-light mb-3">General Financial Query ✨</h3>
+                                <textarea id="geminiPrompt" rows="4" class="w-full p-3 rounded-lg bg-gray-700 border dashboard-border-dark dashboard-text-light placeholder-dashboard-muted-text focus:outline-none focus:ring-2 focus:ring-primary-color" placeholder="Enter your prompt for Gemini AI here... (e.g., 'Explain blockchain for banking', 'Summarize key risks in fintech investments.')"></textarea>
                                 <button id="sendGeminiPrompt" class="px-6 py-3 bg-primary-color text-white font-semibold rounded-lg hover:bg-green-600 transition duration-200 mt-4 self-end">
                                     Send to Gemini
                                 </button>
@@ -1503,11 +1500,11 @@
                                 </div>
                             </div>
 
-                            <!-- Coding Partner Feature -->
+                            <!-- Financial Coding Partner Feature -->
                             <div class="mb-8">
-                                <h3 class="text-xl font-semibold dashboard-text-light mb-3">Coding Partner ✨</h3>
-                                <p class="dashboard-muted-text mb-3">Get explanations for code, generate snippets, or debug issues.</p>
-                                <textarea id="codingPrompt" rows="6" class="w-full p-3 rounded-lg bg-gray-700 border dashboard-border-dark dashboard-text-light placeholder-dashboard-muted-text focus:outline-none focus:ring-2 focus:ring-secondary-color" placeholder="e.g., 'Explain this Python code: def factorial(n): ...', or 'Write a JavaScript function to sort an array.'"></textarea>
+                                <h3 class="text-xl font-semibold dashboard-text-light mb-3">Financial Coding Partner ✨</h3>
+                                <p class="dashboard-muted-text mb-3">Get explanations for financial code, generate snippets for data analysis, or debug issues.</p>
+                                <textarea id="codingPrompt" rows="6" class="w-full p-3 rounded-lg bg-gray-700 border dashboard-border-dark dashboard-text-light placeholder-dashboard-muted-text focus:outline-none focus:ring-2 focus:ring-secondary-color" placeholder="e.g., 'Explain this Python code for calculating IRR: def irr(cash_flows): ...', or 'Write a SQL query to retrieve transaction data.'"></textarea>
                                 <button id="sendCodingPrompt" class="px-6 py-3 bg-secondary-color text-white font-semibold rounded-lg hover:bg-blue-600 transition duration-200 mt-4 self-end">
                                     Ask Coding Partner
                                 </button>
@@ -1520,13 +1517,13 @@
                                 </div>
                             </div>
 
-                            <!-- Career Guide Feature -->
+                            <!-- Financial Career Guide Feature -->
                             <div>
-                                <h3 class="text-xl font-semibold dashboard-text-light mb-3">Career Guide ✨</h3>
-                                <p class="dashboard-muted-text mb-3">Receive advice on career paths, resume building, or interview preparation.</p>
-                                <textarea id="careerPrompt" rows="4" class="w-full p-3 rounded-lg bg-gray-700 border dashboard-border-dark dashboard-text-light placeholder-dashboard-muted-text focus:outline-none focus:ring-2 focus:ring-teal-400" placeholder="e.g., 'What are key skills for a data scientist?', or 'Give me tips for a software engineering interview.'"></textarea>
+                                <h3 class="text-xl font-semibold dashboard-text-light mb-3">Financial Career Guide ✨</h3>
+                                <p class="dashboard-muted-text mb-3">Receive advice on financial career paths, industry trends, or interview preparation for banking roles.</p>
+                                <textarea id="careerPrompt" rows="4" class="w-full p-3 rounded-lg bg-gray-700 border dashboard-border-dark dashboard-text-light placeholder-dashboard-muted-text focus:outline-none focus:ring-2 focus:ring-teal-400" placeholder="e.g., 'What are key skills for a financial analyst?', or 'Give me tips for an investment banking interview.'"></textarea>
                                 <button id="sendCareerPrompt" class="px-6 py-3 bg-teal-500 text-white font-semibold rounded-lg hover:bg-teal-600 transition duration-200 mt-4 self-end">
-                                    Get Career Advice
+                                    Get Financial Career Advice
                                 </button>
                                 <div class="mt-4 p-4 bg-gray-700 rounded-lg border dashboard-border-dark">
                                     <h4 class="text-lg font-semibold dashboard-text-light mb-2">Career Guide Response:</h4>
@@ -1539,15 +1536,20 @@
                         </section>
 
                         <section id="maps" class="hidden mb-8 dashboard-card">
-                            <h2 class="text-3xl font-bold dashboard-primary-text mb-6">Interactive Maps</h2>
-                            <p class="dashboard-muted-text mb-4">Explore different mapping integrations for your dashboard.</p>
+                            <h2 class="text-3xl font-bold dashboard-primary-text mb-6">Global Branch Network</h2>
+                            <p class="dashboard-muted-text mb-4">View and manage the global reach of our financial services.</p>
 
                             <div class="space-y-8">
                                 <div class="dashboard-card p-4 rounded-lg border dashboard-border-dark">
-                                    <h3 class="text-2xl font-semibold dashboard-secondary-text mb-3">Google Maps (Advanced Marker)</h3>
-                                    <p class="dashboard-muted-text mb-3">An interactive map powered by Google Maps Platform, featuring advanced markers. Requires an API key.</p>
-                                    <gmp-map center="40.12150192260742,-100.45039367675781" zoom="4" map-id="DEMO_MAP_ID">
-                                        <gmp-advanced-marker position="40.12150192260742,-100.45039367675781" title="My location"></gmp-advanced-marker>
+                                    <h3 class="text-2xl font-semibold dashboard-secondary-text mb-3">Branch Location Map</h3>
+                                    <p class="dashboard-muted-text mb-3">An interactive map powered by Google Maps Platform, featuring our banking locations worldwide. Requires an API key.</p>
+                                    <gmp-map center="0,0" zoom="2" map-id="DEMO_MAP_ID">
+                                        <!-- Mock markers for global banking presence -->
+                                        <gmp-advanced-marker position="34.0522,-118.2437" title="Los Angeles Branch"></gmp-advanced-marker>
+                                        <gmp-advanced-marker position="51.5074,-0.1278" title="London HQ"></gmp-advanced-marker>
+                                        <gmp-advanced-marker position="35.6895,139.6917" title="Tokyo Office"></gmp-advanced-marker>
+                                        <gmp-advanced-marker position="-33.8688,151.2093" title="Sydney Branch"></gmp-advanced-marker>
+                                        <gmp-advanced-marker position="-25.7479,28.2293" title="Pretoria Operations Center"></gmp-advanced-marker>
                                     </gmp-map>
                                     <div class="api-key-warning mt-4">
                                         <strong>IMPORTANT:</strong> The Google Maps API key is embedded in the script tag in `showDashboardSection` function. For production, **never expose your API key directly in client-side code.** Consider using a backend proxy.
@@ -1557,16 +1559,16 @@
                                 </div>
 
                                 <div class="dashboard-card p-4 rounded-lg border dashboard-border-dark">
-                                    <h3 class="text-2xl font-semibold dashboard-secondary-text mb-3">Leaflet.js with OpenStreetMap</h3>
-                                    <p class="dashboard-muted-text mb-3">A free and open-source interactive map solution using OpenStreetMap data. No API key needed for basic use.</p>
+                                    <h3 class="text-2xl font-semibold dashboard-secondary-text mb-3">Key Financial Hubs (OpenStreetMap)</h3>
+                                    <p class="dashboard-muted-text mb-3">A free and open-source interactive map solution showing major financial centers globally. No API key needed for basic use.</p>
                                     <div id="leaflet-map-container"></div>
                                 </div>
                             </div>
                         </section>
 
                         <section id="banking" class="hidden mb-8 dashboard-card">
-                            <h2 class="text-3xl font-bold dashboard-primary-text mb-6">Banking Operations Overview</h2>
-                            <p class="dashboard-muted-text mb-4">Explore detailed snapshots and settings for various banking sectors.</p>
+                            <h2 class="text-3xl font-bold dashboard-primary-text mb-6">Banking Sectors Overview</h2>
+                            <p class="dashboard-muted-text mb-4">Dive into specific banking sectors for detailed metrics, settings, and operational insights.</p>
 
                             <div id="dashboard-banking-glyphs" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto mb-8">
                                 <!-- Banking sector cards for dashboard will be dynamically inserted here -->
@@ -1574,204 +1576,143 @@
 
                             <div id="dashboard-banking-details" class="flex flex-col space-y-6">
                                 <!-- Detailed content for selected banking sector will be loaded here -->
-                                <p class="text-gray-400 dashboard-card p-6">Click on a banking sector above to view its detailed settings and operational overview.</p>
+                                <p class="text-gray-400 dashboard-card p-6">Select a banking sector above to view its detailed settings and operational overview.</p>
                             </div>
                             <div class="mt-8">
-                                <h3 class="text-2xl font-semibold dashboard-text-light mb-4">Global Banking Pulse & Metrics</h3>
+                                <h3 class="text-2xl font-semibold dashboard-text-light mb-4">Global Banking Pulse & Ecosystem Metrics</h3>
                                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                                     <div class="dashboard-sub-card">
                                         <h4 class="text-xl font-semibold text-white mb-2">Total Transaction Volume (24h)</h4>
                                         <p class="text-4xl font-bold text-green-400">$1.2 Billion</p>
-                                        <p class="text-sm text-gray-400">Avg. 15,000 transactions/sec</p>
+                                        <p class="text-sm text-gray-400">Across all banking products</p>
                                     </div>
                                     <div class="dashboard-sub-card">
                                         <h4 class="text-xl font-semibold text-white mb-2">Fraud Prevention Efficacy</h4>
                                         <p class="text-4xl font-bold text-red-400">99.7%</p>
-                                        <p class="text-sm text-gray-400">Real-time anomaly detection</p>
+                                        <p class="text-sm text-gray-400">AI-driven real-time anomaly detection</p>
                                     </div>
                                     <div class="dashboard-sub-card">
-                                        <h4 class="text-xl font-semibold text-white mb-2">API Call Latency (Avg)</h4>
+                                        <h4 class="text-xl font-semibold text-white mb-2">Core API Latency (Avg)</h4>
                                         <p class="text-4xl font-bold text-blue-400">45ms</p>
-                                        <p class="text-sm text-gray-400">Core banking API response time</p>
+                                        <p class="text-sm text-gray-400">Response time for critical banking APIs</p>
                                     </div>
                                     <div class="dashboard-sub-card">
-                                        <h4 class="text-xl font-semibold text-white mb-2">Customer Acquisition (MoM)</h4>
+                                        <h4 class="text-xl font-semibold text-white mb-2">Customer Acquisition Growth (MoM)</h4>
                                         <p class="text-4xl font-bold text-purple-400">+8.2%</p>
-                                        <p class="text-sm text-gray-400">New retail and investment clients</p>
+                                        <p class="text-sm text-gray-400">Across retail, investment, and digital clients</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="mt-8">
-                                <h3 class="text-2xl font-semibold dashboard-text-light mb-4">Ecosystem Integration Status</h3>
+                                <h3 class="text-2xl font-semibold dashboard-text-light mb-4">Complete Ecosystem Integration Status</h3>
                                 <ul class="list-disc list-inside dashboard-muted-text space-y-2">
-                                    <li><strong>Core Systems:</strong> All modules integrated with VaultMesh™ for real-time data flow.</li>
-                                    <li><strong>Global Network:</strong> Seamless connectivity across all listed countries and regions.</li>
-                                    <li><strong>FinTech Partnerships:</strong> 15 active integrations, 5 in development.</li>
-                                    <li><strong>Security Protocols:</strong> Full compliance with ISO 27001 and PCI DSS.</li>
-                                    <li><strong>Regulatory Reporting:</strong> Automated and real-time for all major jurisdictions.</li>
+                                    <li><strong>Core Banking Systems:</strong> Fully integrated with VaultMesh™ for real-time data synchronization and ledger operations.</li>
+                                    <li><strong>Global Network Reach:</strong> Seamless connectivity and service availability across all major financial hubs and over 100 countries.</li>
+                                    <li><strong>FinTech Partnerships:</strong> Over 50 active integrations with leading FinTech innovators, ensuring cutting-edge service delivery.</li>
+                                    <li><strong>Security & Compliance:</strong> Adherence to global financial security standards (ISO 27001, PCI DSS, GDPR) with continuous automated audits.</li>
+                                    <li><strong>Regulatory Reporting:</strong> Automated, real-time reporting to all relevant financial authorities (e.g., Fed, ECB, SARB, FCA) ensuring full transparency.</li>
+                                    <li><strong>Interbank Connectivity:</strong> High-speed payment rails (SWIFT, RippleNet, SEPA) for efficient cross-border transactions.</li>
+                                    <li><strong>Digital Identity & KYC:</strong> Blockchain-based identity verification systems for enhanced security and streamlined onboarding.</li>
                                 </ul>
                             </div>
                         </section>
 
                         <section id="meeting-minutes" class="hidden mb-8 dashboard-card">
-                            <h2 class="text-3xl font-bold dashboard-primary-text mb-6">Meeting Minutes: Fruitful Dashboard Development</h2>
-                            <p class="text-lg dashboard-muted-text mb-4">A quick recap of our discussions regarding API integrations and future features.</p>
+                            <h2 class="text-3xl font-bold dashboard-primary-text mb-6">Banking Team Meetings: Key Discussions & Action Items</h2>
+                            <p class="text-lg dashboard-muted-text mb-4">Minutes from recent discussions on banking platform development, compliance, and strategic initiatives.</p>
 
                             <div class="space-y-8">
                                 <div>
                                     <h3 class="text-2xl font-semibold dashboard-text-light mb-3">Meeting Details:</h3>
                                     <ul class="list-disc list-inside ml-4 dashboard-text-light space-y-1">
-                                        <li><strong>Date:</strong> June 23, 2025</li>
-                                        <li><strong>Time:</strong> 18:45 SAST (6:45 PM, Silver Lakes Golf Estate, Gauteng, South Africa)</li>
-                                        <li><strong>Attendees:</strong> Fruitful Dashboard Development Team (represented by user and Gemini AI)</li>
+                                        <li><strong>Date:</strong> June 28, 2025</li>
+                                        <li><strong>Time:</strong> 10:00 AM SAST (Silver Lakes Golf Estate, Gauteng, South Africa)</li>
+                                        <li><strong>Attendees:</strong> Banking Platform Lead, Head of Compliance, Head of Digital Products, Lead Financial Engineer</li>
                                     </ul>
                                 </div>
 
                                 <div>
-                                    <h3 class="text-2xl font-semibold dashboard-text-light mb-3">1. Review of Previous API Discussions:</h3>
+                                    <h3 class="text-2xl font-semibold dashboard-text-light mb-3">1. Review of Digital Wallet Security Enhancements:</h3>
                                     <div class="space-y-4 ml-4">
                                         <div class="dashboard-card p-4 rounded-lg border dashboard-border-dark">
-                                            <h4 class="text-xl font-medium dashboard-secondary-text mb-2">Design Styling API Key:</h4>
-                                            <p class="dashboard-muted-text"><strong>Conclusion:</strong> No single "API key" for generic styling. Styling handled primarily by CSS (e.g., Tailwind CSS). Specific design services (e.g., Google Fonts, mapping APIs with custom styles) *would* require their own API keys.</p>
-                                            <p class="dashboard-muted-text mt-1"><strong>Action:</strong> Continue using Tailwind CSS. Explore specific API-driven styling if a particular design service is integrated.</p>
+                                            <h4 class="text-xl font-medium dashboard-secondary-text mb-2">Discussion: Two-Factor Authentication (2FA) Implementation</h4>
+                                            <p class="dashboard-muted-text"><strong>Conclusion:</strong> Successful rollout of mandatory 2FA for all digital wallet transactions over $500. Initial user feedback is positive, with a slight decrease in transaction friction as expected.</p>
+                                            <p class="dashboard-muted-text mt-1"><strong>Action:</strong> Monitor transaction completion rates and fraud incidents closely for next 2 weeks. Prepare A/B test for biometric authentication vs. SMS OTP for transactions below $500. <em>(Assigned: Digital Products, Security Lead)</em></p>
                                         </div>
                                         <div class="dashboard-card p-4 rounded-lg border dashboard-border-dark">
-                                            <h4 class="text-xl font-medium dashboard-secondary-text mb-2">Language Toggler:</h4>
-                                            <p class="dashboard-muted-text"><strong>Conclusion:</strong> Achieved via JavaScript logic and `data-key` attributes for translatable text. No external API key strictly necessary for the toggler if translations are stored locally.</p>
-                                            <p class="dashboard-muted-text mt-1"><strong>Action:</strong> Current implementation is good. For complex internationalization, consider dedicated I18n JavaScript libraries or a translation API if dynamic, on-the-fly translation is required.</p>
-                                        </div>
-                                        <div class="dashboard-card p-4 rounded-lg border dashboard-border-dark">
-                                            <h4 class="text-xl font-medium dashboard-secondary-text mb-2">Selector to Change All Text in HTML with Script:</h4>
-                                            <p class="dashboard-muted-text"><strong>Conclusion:</strong> `document.querySelectorAll()` with specific tag names or custom attributes is the best method for targeted text manipulation. Use `document.querySelectorAll('*')` with extreme caution.</p>
-                                            <p class="dashboard-muted-text mt-1"><strong>Action:</strong> Continue using specific selectors for controlled text modification.</p>
-                                        </div>
-                                        <div class="dashboard-card p-4 rounded-lg border dashboard-border-dark">
-                                            <h4 class="text-xl font-medium dashboard-secondary-text mb-2">General Helpful API Categories (Recap):</h4>
-                                            <ul class="list-disc list-inside ml-4 dashboard-muted-text space-y-1">
-                                                <li>**Mapping & Location:** Google Maps Platform (requires key).</li>
-                                                <li>**Data & Information:** OpenWeatherMap (key), REST Countries (often no key), News API (key), Free Dictionary (no key).</li>
-                                                <li>**Authentication & User Management:** Firebase Auth, Auth0.</li>
-                                                <li>**Payment Processing:** Stripe (key), PayPal (credentials).</li>
-                                                <li>**AI/ML:** OpenAI (key), Hugging Face Inference API (key), **Gemini API (key - our current focus!)**.</li>
-                                                <li>**Image/Media:** Pexels API / Unsplash API (keys).</li>
-                                                <li>**Utility:** Bitly API (key), SendGrid API / Mailgun API (keys).</li>
-                                            </ul>
-                                            <p class="api-key-warning mt-3">
-                                                <strong>CRITICAL SECURITY NOTE:</strong> Never expose API keys directly in client-side code. Use a backend server or strict restrictions.
-                                            </p>
+                                            <h4 class="text-xl font-medium dashboard-secondary-text mb-2">Discussion: Enhanced Fraud Detection Model (AI-driven)</h4>
+                                            <p class="dashboard-muted-text"><strong>Conclusion:</strong> New AI model deployed to production with a 15% increase in fraud detection accuracy and 5% reduction in false positives. Model retraining schedule is confirmed for bi-weekly intervals.</p>
+                                            <p class="dashboard-muted-text mt-1"><strong>Action:</strong> Integrate real-time model performance metrics into the "Financial Analytics" dashboard. Conduct a deep dive into identified new fraud patterns. <em>(Assigned: Financial Engineer, Analytics Team)</em></p>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div>
-                                    <h3 class="text-2xl font-semibold dashboard-text-light mb-3">2. Gemini API Integration (Current Progress & Understanding):</h3>
+                                    <h3 class="text-2xl font-semibold dashboard-text-light mb-3">2. Status of Cross-Border Payments Initiative:</h3>
                                     <div class="space-y-4 ml-4">
                                         <div class="dashboard-card p-4 rounded-lg border dashboard-border-dark">
-                                            <h4 class="text-xl font-medium dashboard-secondary-text mb-2">What does a Gemini API Key do? (for "Baby Staff"):</h4>
-                                            <p class="dashboard-text-light mb-2">Imagine the Gemini AI as a super-smart robot brain that lives far away in a Google data center. This robot brain can do amazing things like talk like a human, understand pictures, summarize long texts, and write code.</p>
-                                            <p class="dashboard-text-light mb-2">**Your Gemini API Key is like a special secret VIP pass** that allows your Fruitful Dashboard to "talk" to this super-smart robot brain. It tells Google it's *our* dashboard asking, keeps track of usage, and ensures safe communication.</p>
-                                            <p class="dashboard-text-light">**Crucial Point for "Baby Staff":** This API key is a **secret!** Never show it to anyone who shouldn't have access, and never put it directly into code that everyone can see (like the HTML if it's on a public website). It's like your house key – keep it safe!</p>
-                                        </div>
-                                        <div class="dashboard-card p-4 rounded-lg border dashboard-border-dark">
-                                            <h4 class="text-xl font-medium dashboard-secondary-text mb-2">Key Acquisition:</h4>
-                                            <p class="dashboard-muted-text">API keys are obtained via <a href="https://aistudio.google.com/" target="_blank" class="dashboard-secondary-text hover:underline">Google AI Studio</a>.</p>
-                                        </div>
-                                        <div class="dashboard-card p-4 rounded-lg border dashboard-border-dark">
-                                            <h4 class="text-xl font-medium dashboard-secondary-text mb-2">Current Dashboard Implementation:</h4>
-                                            <p class="dashboard-muted-text">A new "AI Gemini" section has been added with a general prompt area, plus new specialized "Coding Partner" and "Career Guide" features, all powered by Gemini AI. The API key for Gemini is now explicitly set using the key you provided (`AIzaSyBGSDZATtITv5iIoB3rgKHBpWx9MrufxXE`).</p>
-                                            <p class="api-key-warning mt-2">
-                                                <strong>ACTION REQUIRED for PRODUCTION:</strong> While the key is now in the code, for any production deployment, move this API call to a secure backend server to protect your key.
-                                            </p>
+                                            <h4 class="text-xl font-medium dashboard-secondary-text mb-2">Discussion: Partnership with SwiftPay™ for APAC Expansion</h4>
+                                            <p class="dashboard-muted-text"><strong>Conclusion:</strong> API integration with SwiftPay™ for remittances to APAC region is 80% complete. Testing indicates 95% transaction success rate with average settlement time of under 3 hours.</p>
+                                            <p class="dashboard-muted-text mt-1"><strong>Action:</strong> Finalize API documentation and conduct a security audit with SwiftPay™ engineering team by EOW. Prepare for soft launch in key APAC markets next month. <em>(Assigned: Digital Products, Financial Engineer)</em></p>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div>
-                                    <h3 class="text-2xl font-semibold dashboard-text-light mb-3">3. Discussion of New API-related Features for Fruitful Dashboard:</h3>
-                                    <div class="space-y-6 ml-4">
+                                    <h3 class="text-2xl font-semibold dashboard-text-light mb-3">3. Regulatory Compliance Updates (FATF & GDPR):</h3>
+                                    <div class="space-y-4 ml-4">
                                         <div class="dashboard-card p-4 rounded-lg border dashboard-border-dark">
-                                            <h4 class="text-xl font-medium dashboard-secondary-text mb-2"><i class="fas fa-code"></i> Coding Partner Integration:</h4>
-                                            <p class="dashboard-muted-text"><strong>Concept:</strong> Use Gemini AI's code generation and explanation capabilities.</p>
-                                            <p class="dashboard-muted-text"><strong>API(s) to explore:</strong> Gemini API (already integrated).</p>
-                                            <p class="dashboard-muted-text"><strong>Implementation Idea:</strong> Integrated into "AI Gemini" section with dedicated input/output.</p>
-                                        </div>
-                                        <div class="dashboard-card p-4 rounded-lg border dashboard-border-dark">
-                                            <h4 class="text-xl font-medium dashboard-secondary-text mb-2"><i class="fas fa-graduation-cap"></i> Career Guide Integration:</h4>
-                                            <p class="dashboard-muted-text"><strong>Concept:</strong> Leverage AI to provide career advice, resume tips, interview prep, or learning paths.</p>
-                                            <p class="dashboard-muted-text"><strong>API(s) to explore:</strong> Gemini API (primary), potentially specialized career APIs for structured data.</p>
-                                            <p class="dashboard-muted-text"><strong>Implementation Idea:</strong> New "Career Insights" section where users input goals/questions for AI-generated guidance.</p>
-                                        </div>
-                                        <div class="dashboard-card p-4 rounded-lg border dashboard-border-dark">
-                                            <h4 class="text-xl font-medium dashboard-secondary-text mb-2"><i class="fas fa-mobile-alt"></i> "🦊 Foxed Has Mobiles™" - Product Data/Inventory Integration:</h4>
-                                            <p class="dashboard-muted-text"><strong>Concept:</strong> Pull mobile product data (names, specs, prices, stock) from a dedicated system.</p>
-                                            <p class="dashboard-muted-text"><strong>API(s) to explore:</strong> Likely a **custom API** from "Foxed Has Mobiles™" or a third-party e-commerce platform API (Shopify, WooCommerce).</p>
-                                            <p class="dashboard-muted-text"><strong>Action:</strong> Contact "Foxed Has Mobiles™" for API documentation and keys.</p>
-                                        </div>
-                                        <div class="dashboard-card p-4 rounded-lg border dashboard-border-dark">
-                                            <h4 class="text-xl font-medium dashboard-secondary-text mb-2"><i class="fas fa-shield-alt"></i> "🌳 Baobab Security Network™" - Security Monitoring:</h4>
-                                            <p class="dashboard-muted-text"><strong>Concept:</strong> Display security alerts, network status, or security logs.</p>
-                                            <p class="dashboard-muted-text"><strong>API(s) to explore:</strong> Likely a **custom API** from "Baobab Security Network™".</p>
-                                            <p class="dashboard-muted-text"><strong>Action:</strong> Obtain API documentation and credentials from "Baobab Security Network™".</p>
-                                        </div>
-                                        <div class="dashboard-card p-4 rounded-lg border dashboard-border-dark">
-                                            <h4 class="text-xl font-medium dashboard-secondary-text mb-2"><i class="fas fa-shopping-cart"></i> "🌱Global_Complete_purchase" & "🌱Global_checkout_success" - E-commerce Analytics:</h4>
-                                            <p class="dashboard-muted-text"><strong>Concept:</strong> Track successful purchases and checkout completions.</p>
-                                            <p class="dashboard-muted-text"><strong>API(s) to explore:</strong> Google Analytics Data API, Custom E-commerce Platform API, CRM/ERP APIs.</p>
-                                            <p class="dashboard-muted-text"><strong>Implementation Idea:</strong> New charts/metrics in "Data Analytics" showing conversion rates, successful purchases, checkout funnel performance.</p>
+                                            <h4 class="text-xl font-medium dashboard-secondary-text mb-2">Discussion: Automated AML Reporting Enhancements</h4>
+                                            <p class="dashboard-muted-text"><strong>Conclusion:</strong> New automated reporting module for Anti-Money Laundering (AML) is ready for UAT. Expect 50% reduction in manual reporting effort.</p>
+                                            <p class="dashboard-muted-text mt-1"><strong>Action:</strong> Schedule UAT with Compliance Department. Prepare training materials for new module. <em>(Assigned: Head of Compliance, Financial Admin)</em></p>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div>
-                                    <h3 class="text-2xl font-semibold dashboard-text-light mb-3">4. Live Demos (for Visual Learners / "Baby Staff"):</h3>
-                                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                        <div class="dashboard-card p-4 rounded-lg shadow-md border dashboard-border-dark flex flex-col items-center">
-                                            <h4 class="text-xl font-medium dashboard-secondary-text mb-2">Live Google Map</h4>
-                                            <p class="dashboard-muted-text mb-3">A real-time map, demonstrating location services. (Replace with your actual embed!)</p>
-                                            <div class="w-full h-64 bg-gray-800 rounded-lg overflow-hidden flex items-center justify-center">
-                                                <iframe src="YOUR_GOOGLE_MAP_EMBED_CODE" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                                                <span class="dashboard-muted-text absolute text-center">**PLACEHOLDER MAP**<br>Get your embed code from Google Maps.</span>
-                                            </div>
-                                        </div>
-                                        <div class="dashboard-card p-4 rounded-lg shadow-md border dashboard-border-dark flex flex-col items-center">
-                                            <h4 class="text-xl font-medium dashboard-secondary-text mb-2">Live YouTube Video</h4>
-                                            <p class="dashboard-muted-text mb-3">An embedded video, showing media integration. (Replace with your actual embed!)</p>
-                                            <div class="w-full h-64 bg-gray-800 rounded-lg overflow-hidden flex items-center justify-center">
-                                                <iframe width="100%" height="100%" src="YOUR_YOUTUBE_EMBED_CODE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                                <span class="dashboard-muted-text absolute text-center">**PLACEHOLDER VIDEO**<br>Get your embed code from YouTube.</span>
-                                            </div>
-                                        </div>
-                                        <div class="dashboard-card p-4 rounded-lg shadow-md border dashboard-border-dark flex flex-col items-center">
-                                            <h4 class="text-xl font-medium dashboard-secondary-text mb-2">Live Spotify Music</h4>
-                                            <p class="dashboard-muted-text mb-3">Interactive Spotify embeds for albums/tracks.</p>
-                                            <div class="w-full h-64 bg-gray-800 rounded-lg overflow-hidden flex flex-col items-center justify-center space-y-2 p-2">
-                                                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3RyjFxsU9hcmg14vqzUUMy?utm_source=generator" width="90%" height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                                                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2kdQY3b6dDRGonyIzcWljc?utm_source=generator" width="90%" height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                                                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6Xe9wT5xeZETPwtaP2ynUz?utm_source=generator" width="90%" height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                                            </div>
-                                        </div>
-                                        <div class="dashboard-card p-4 rounded-lg shadow-md border dashboard-border-dark flex flex-col items-center">
-                                            <h4 class="text-xl font-medium dashboard-secondary-text mb-2">Gemini AI Test (re-iterated)</h4>
-                                            <p class="dashboard-muted-text mb-3">See our core AI integration in action.</p>
-                                            <div class="w-full h-64 bg-gray-800 rounded-lg p-4 overflow-auto text-sm dashboard-text-light">
-                                                <p>This is where our Gemini AI interacts. You can test it in the "AI Gemini" section!</p>
-                                                <p class="mt-2 dashboard-muted-text">Example: Ask the AI "What is the capital of France?"</p>
-                                                <p class="mt-2 text-red-400">**Remember to add your actual API Key!**</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <h3 class="text-2xl font-semibold dashboard-text-light mb-3">5. Action Items for the Team:</h3>
+                                    <h3 class="text-2xl font-semibold dashboard-text-light mb-3">4. Action Items for Upcoming Sprints:</h3>
                                     <ul class="list-disc list-inside ml-4 dashboard-text-light space-y-2">
-                                        <li>**IMMEDIATE & CRITICAL:** Replace `YOUR_GEMINI_API_KEY` in the JavaScript with your actual key from Google AI Studio.</li>
-                                        <li>**SECURITY:** Begin planning for secure backend proxying of all API calls for production deployment.</li>
-                                        <li>**API ACQUISITION:** Contact "Foxed Has Mobiles™" and "Baobab Security Network™" for their API documentation and access credentials.</li>
-                                        <li>**ANALYTICS:** Investigate Google Analytics Data API or e-commerce platform APIs for detailed purchase/checkout event tracking.</li>
-                                        <li>**UI/UX:** Brainstorm and design user interfaces for "Coding Partner" and "Career Guide" functionalities.</li>
-                                        <li>**EMBED CODES:** Generate actual embed codes for the live demos (Google Maps, YouTube, Spotify) to make this section truly "live" for the team.</li>
-                                        <li>**CONTINUOUS LEARNING:** Encourage "baby staff" to review API documentation for any integrated service to understand capabilities and limitations.</li>
+                                        <li>**Sprint 20.3 (Next 2 weeks):** Complete roll-out of new "Investment Advisory AI" feature within Wealth Management sector.</li>
+                                        <li>**Sprint 20.4:** Begin preliminary research into Central Bank Digital Currency (CBDC) integration strategies.</li>
+                                        <li>**Ongoing:** Review global market risk reports daily and adjust hedging strategies as needed.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="settings" class="hidden mb-8 dashboard-card">
+                            <h2 class="text-3xl font-bold dashboard-primary-text mb-6">Banking System Settings</h2>
+                            <p class="dashboard-muted-text mb-4">Configure global parameters and access controls for the Fruitful Banking platform.</p>
+
+                            <div class="space-y-8">
+                                <div class="dashboard-sub-card">
+                                    <h3 class="text-xl font-semibold text-white mb-3">General Banking System Settings</h3>
+                                    <ul class="list-disc list-inside ml-4 text-base text-gray-300 space-y-2">
+                                        <li><strong>Default Currency:</strong> USD <button class="ml-2 text-blue-400 hover:text-blue-300 text-sm">Change</button></li>
+                                        <li><strong>Timezone:</strong> SAST (GMT+2) <button class="ml-2 text-blue-400 hover:text-blue-300 text-sm">Change</button></li>
+                                        <li><strong>Global KYC Threshold:</strong> $10,000 equivalent <button class="ml-2 text-blue-400 hover:text-blue-300 text-sm">Adjust</button></li>
+                                        <li><strong>Maintenance Window:</strong> Sunday 02:00 - 04:00 AM local time <button class="ml-2 text-blue-400 hover:text-blue-300 text-sm">Schedule</button></li>
+                                        <li><strong>Auto-Compliance Check Frequency:</strong> Daily <button class="ml-2 text-blue-400 hover:text-blue-300 text-sm">Configure</button></li>
+                                    </ul>
+                                </div>
+
+                                <div class="dashboard-sub-card">
+                                    <h3 class="text-xl font-semibold text-white mb-3">API and Integration Settings</h3>
+                                    <ul class="list-disc list-inside ml-4 text-base text-gray-300 space-y-2">
+                                        <li><strong>Gemini AI API Status:</strong> Active <span class="ml-2 bg-green-500 text-white text-xs font-semibold px-2 py-0.5 rounded-full">Operational</span> <button class="ml-2 text-blue-400 hover:text-blue-300 text-sm">Manage Key</button></li>
+                                        <li><strong>Google Maps API Status:</strong> Active <span class="ml-2 bg-green-500 text-white text-xs font-semibold px-2 py-0.5 rounded-full">Operational</span> <button class="ml-2 text-blue-400 hover:text-blue-300 text-sm">Manage Key</button></li>
+                                        <li><strong>Third-Party Payment Gateways:</strong> Stripe, PayPal, SwiftPay (Configured) <button class="ml-2 text-blue-400 hover:text-blue-300 text-sm">Add/Edit</button></li>
+                                        <li><strong>Blockchain Network Connections:</strong> MainNet, TestNet (2 active) <button class="ml-2 text-blue-400 hover:text-blue-300 text-sm">View Nodes</button></li>
+                                    </ul>
+                                </div>
+
+                                <div class="dashboard-sub-card">
+                                    <h3 class="text-xl font-semibold text-white mb-3">Security and Access Controls</h3>
+                                    <ul class="list-disc list-inside ml-4 text-base text-gray-300 space-y-2">
+                                        <li><strong>Multi-Factor Authentication (MFA):</strong> Enabled for all admin roles <button class="ml-2 text-blue-400 hover:text-blue-300 text-sm">Configure Policies</button></li>
+                                        <li><strong>Role-Based Access Control (RBAC):</strong> Active <button class="ml-2 text-blue-400 hover:text-blue-300 text-sm">Manage Roles</button></li>
+                                        <li><strong>IP Whitelisting:</strong> Enabled for core systems <button class="ml-2 text-blue-400 hover:text-blue-300 text-sm">Edit List</button></li>
+                                        <li><strong>Data Encryption Standard:</strong> AES-256 <button class="ml-2 text-blue-400 hover:text-blue-300 text-sm">Audit Certificate</button></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1838,8 +1779,11 @@
                 section.classList.add('hidden');
             });
             // Hide the dashboard wrapper
-            document.getElementById('fruitful-dashboard-wrapper').classList.add('hidden');
-            document.getElementById('fruitful-dashboard-wrapper').classList.remove('flex'); // Ensure flex is removed when hidden
+            const dashboardWrapper = document.getElementById('fruitful-dashboard-wrapper');
+            if (dashboardWrapper) { // Add null check
+                dashboardWrapper.classList.add('hidden');
+                dashboardWrapper.classList.remove('flex');
+            }
 
             // Show the selected section
             const sectionToShow = document.getElementById(sectionIdToShow);
@@ -1865,8 +1809,11 @@
                 document.querySelectorAll('#fruitful-dashboard-wrapper main section').forEach(section => {
                     section.classList.add('hidden');
                 });
-                // Hide music sub-sidebar if moving away from dashboard
-                document.getElementById('musicSubSidebar').classList.add('hidden');
+                const musicSubSidebar = document.getElementById('musicSubSidebar');
+                if (musicSubSidebar) { // Add null check
+                    musicSubSidebar.classList.add('hidden');
+                    musicSubSidebar.classList.remove('flex');
+                }
             }
 
             // Special handling for Banimal page to start canvas animation
@@ -2353,7 +2300,7 @@
             document.querySelectorAll('#sector-content-container .brand-snapshot').forEach(el => el.classList.add('hidden'));
             document.querySelectorAll('#banking-sector-glyphs .glyph').forEach(link => link.classList.remove('active')); // Remove active class from all glyph links
 
-            const el = document.getElementById(panelId);
+            let el = document.getElementById(panelId);
             // Dynamically create the div if it doesn't exist, to host the content
             if (!el) {
                 const newDiv = document.createElement('div');
@@ -2475,16 +2422,13 @@
                 clickedLink.classList.add('dashboard-active-nav-item');
             }
 
-            // Handle visibility of music sub-sidebar
+            // Handle visibility of music sub-sidebar (now part of maps section conceptually)
             const musicSubSidebar = document.getElementById('musicSubSidebar');
-            if (sectionId === 'music') {
-                musicSubSidebar.classList.remove('hidden');
-                musicSubSidebar.classList.add('flex'); // Use flex to make it visible and take space
-                showMusicSubSection(activeMusicSubSection); // Show the default music sub-section
-            } else {
+            if (musicSubSidebar) { // Added null check
                 musicSubSidebar.classList.add('hidden');
                 musicSubSidebar.classList.remove('flex');
             }
+
 
             // Special handling for maps section to load Google Maps script and initialize Leaflet
             if (sectionId === 'maps') {
@@ -2505,33 +2449,10 @@
             // Special handling for the banking section to populate its cards
             if (sectionId === 'banking') {
                 populateDashboardBankingCards(); // Populate banking sector cards on showing this section
-                showDashboardBankingDetails('banking-retail'); // Optionally, show details for a default banking sector
+                showDashboardBankingDetails('banking-retail'); // Show details for a default banking sector
             }
         }
 
-        function showMusicSubSection(subSectionId) {
-            activeMusicSubSection = subSectionId; // Update the active sub-section
-
-            // Hide all music sub-sections
-            document.querySelectorAll('#music > div').forEach(subSection => {
-                subSection.classList.add('hidden');
-            });
-
-            // Show the selected music sub-section
-            const activeSubSectionContent = document.getElementById(subSectionId + 'Content');
-            if (activeSubSectionContent) {
-                activeSubSectionContent.classList.remove('hidden');
-            }
-
-            // Update active state for music sub-sidebar links
-            document.querySelectorAll('#musicSubSidebar .dashboard-sidebar-nav-item').forEach(link => {
-                link.classList.remove('dashboard-active-nav-item');
-            });
-            const clickedSubLink = document.querySelector(`#musicSubSidebar .dashboard-sidebar-nav-item[onclick*="${subSectionId}"]`);
-            if (clickedSubLink) {
-                clickedSubLink.classList.add('dashboard-active-nav-item');
-            }
-        }
 
         // Helper function for making API calls to Gemini
         async function callGeminiAPI(prompt, responseDiv, errorDiv) {
